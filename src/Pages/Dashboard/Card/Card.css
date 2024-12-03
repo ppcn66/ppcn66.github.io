@@ -1,0 +1,44 @@
+.card-container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-content: center;
+   align-items: center;
+}
+
+.card-before{
+    grid-column: 1/2;
+    background-color: #F8F8F8;;
+    border-radius: 20px;
+    text-align: center;
+    height: 9rem;
+    width: 18rem;
+    font-size: large;
+    font-weight: bold;
+    margin-right: 25px;
+   
+}
+
+.card-after{
+    grid-column: 2/4;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    text-align: center;
+    height: 9rem;
+    width: 18rem;
+    font-size: large;
+    font-weight: bold;
+    margin-right: 20px;
+    
+}
+
+.card-title{
+    color: #fd6e2b;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: x-large;
+    font-weight: bold; 
+    font-family: Unbounded;
+}
+
+
+

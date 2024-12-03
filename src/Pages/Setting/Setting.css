@@ -1,0 +1,35 @@
+.settings-container {
+    margin-left: 350px;
+    padding: 20px;
+
+  }
+  
+  .settings-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .settings-sections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 1000px;
+  }
+  
+.userinfo{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.general{
+    grid-column: 1/4;
+    grid-row: 2/3;
+
+}
+
+.access{
+    grid-column: 1/4;
+    grid-row: 3/4;
+
+}

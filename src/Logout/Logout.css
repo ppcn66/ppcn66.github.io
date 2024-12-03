@@ -1,0 +1,81 @@
+.btnn a{
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Logout-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+ 
+}
+
+.cancle a{
+  
+    color: rgb(167, 165, 165);
+}
+
+.enter a{
+    color: rgb(148, 2, 2);
+
+}
+
+.logout-blur{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+}
+
+
+/* ฉากหลังสีดำจาง */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3); /* สีดำจาง */
+   
+  }
+  
+  /* กล่องตรงกลาง */
+  .box {
+    background-color: white;
+    padding: 20px 50px 30px 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* เงา */
+  }
+  
+.bbtn{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.lg{
+   
+    height: 60px;
+}
+
+h6{
+    margin: 0;
+}
+
+.pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

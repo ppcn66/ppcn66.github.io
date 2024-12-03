@@ -1,0 +1,40 @@
+.storage-chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color:#f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 750px;
+    height: 450px;
+    margin: auto;
+  }
+  
+  .chart-wrapper {
+    position: relative;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .chart-center-text {
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .percentage {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #6753ff;
+    margin: 0;
+  }
+  
+  .space-info {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+  }
+  

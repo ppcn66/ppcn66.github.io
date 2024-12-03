@@ -1,0 +1,22 @@
+.table-share{
+    background-color: white;
+    margin-top: 50px;
+    padding: 20px 0px 50vh 80px;
+    width: 100%;
+    border-radius: 20px;
+    position: absolute;
+    left: 300px;
+  
+}
+td{
+    padding-top: 10px;
+}
+
+
+.bottom{
+    border-bottom: 1px solid #fd6e2b;
+}
+
+.pad-right{
+    padding-left: 0px;
+}

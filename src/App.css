@@ -1,0 +1,16 @@
+/* @font-face { 
+    src: url('/src/assets/Font/sukhumvit-set-font-family/SukhumvitSet-Medium.ttf') format('truetype'),
+         url('/src/assets/Font/unbounded-font-family/Unbounded-Medium-BF63e447c31b18b.ttf') format('truetype');
+    
+    font-style: normal;
+    font-weight: normal;
+    font-family: Unbounded;
+   
+  } */
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}

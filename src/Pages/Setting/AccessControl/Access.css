@@ -1,0 +1,18 @@
+.access-control {
+    flex: 2;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .departments-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .department-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    
+  }
+  

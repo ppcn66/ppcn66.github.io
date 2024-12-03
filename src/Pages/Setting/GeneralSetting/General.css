@@ -1,0 +1,17 @@
+.general-settings {
+    flex: 2;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .settings-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .settings-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  

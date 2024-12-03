@@ -1,0 +1,141 @@
+.cat {
+    width: 100%;
+    max-width: 1037px;
+    height: 846px; 
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    top: 178px;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.head {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.table-container {
+    flex: 1; 
+    overflow-y: auto;
+    max-height: 750px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+}
+
+.bose {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bose th {
+    background-color: white;
+    font-weight: bold;
+    top: 0;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    text-align: left
+}
+
+.thai {
+    background-color: white;
+    border-bottom: rgb(254, 74, 37,0.8) 2px solid;
+    width: 100%;
+
+}
+
+.bose th, 
+.bose td {
+    padding: 8px;
+    text-align: left;
+}
+
+.bose tr:nth-child() {
+    background-color: white;
+}
+
+.bose tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+.status-completed {
+    color: #1D6D21;
+    font-weight: bold;
+}
+
+.status-in-progress {
+    color: #B82222;
+    font-weight: bold;
+}
+
+.table-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background-color: white;
+}
+
+.btn btn-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.trot{
+    background-color: white;
+    border: none;
+    padding: 0px;
+}
+
+.breadcrumb {
+    font-size: 36px !important;
+    position: absolute;
+    top: 120px;
+    left: 405px;
+    text-align: center;
+  }
+
+  .breadcrumb-item a {
+    color: #007bff !important; 
+  }
+  
+  .breadcrumb-item a:hover {
+    color: #fed6c8 !important; 
+  }
+  
+  .breadcrumb-item.active {
+    color: #ffffff !important; 
+    font-weight: bold; 
+  }
+
+  .breadcrumb .breadcrumb-icon {
+    font-size: 25px; 
+    color: white; 
+    margin: 0 6px; 
+  }
+
+
+  .dropdown-toggle::after {
+    content: none !important;
+    display: inline-block;
+}
+
+
+
+
+

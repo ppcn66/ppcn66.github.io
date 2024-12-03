@@ -1,0 +1,21 @@
+.userinfo {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    
+  }
+  
+  .user-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+  }
+  
+  .user-details p {
+    margin: 5px 0;
+  }
+  

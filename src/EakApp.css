@@ -1,0 +1,98 @@
+.background {
+  background-color: #ffffff;
+  
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+
+}
+
+/* .centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+} */
+
+body {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.rectangle-box {
+  width: 1410px; /* ความกว้างของกรอบ */
+  height: 100px; /* ความสูงของกรอบ */
+  /* border: 2px solid #007bff; ขอบสีฟ้า */
+  border-radius: 10px; /* มุมโค้ง */
+  background-color: #ffffff; /* สีพื้นหลังของกรอบ */
+  display: flex; /* ใช้ Flexbox */
+  flex-direction: column; /* จัดให้อยู่คนละบรรทัด */
+  /* justify-content: center; /* จัดตำแหน่งตรงกลางแนวตั้ง */
+  /*align-items: center; /* จัดตำแหน่งตรงกลางแนวนอน */
+  /*text-align: center; จัดข้อความให้อยู่กลาง */
+;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333; /* สีข้อความ */
+  margin: 0; /* ลบระยะขอบ */
+
+}
+
+h2 {
+  font-size: 18px;
+  color: #666; /* สีข้อความ */
+  margin: 0; /* ลบระยะขอบ */
+  margin-top: 8px; /* เพิ่มระยะห่างระหว่าง h1 และ h2 */
+}
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */

@@ -1,0 +1,157 @@
+/* #root {
+  width: 1440px;
+  height: 1024px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+} */
+
+.main-home{
+ position: relative;
+  width: 1440px;
+  height: 1024px;
+  left: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 53px;
+  row-gap: 15px;
+  
+}
+
+h2 {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 447px;
+  height: 76px;
+  border-radius: 10px;
+  border: 1px solid #ddd; 
+  font-size: 18px;
+  color: #333;
+  background-color: #f9f9f9;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  text-align: left;
+  padding-left: 30px; 
+  display: flex;
+  align-items: center;
+
+}
+
+.button-icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.button:hover {
+  background-color: #e9eef6;
+  transform: translateY(-3px); 
+}
+
+.button:active {
+  background-color: #d3e4ff;
+  transform: translateY(1px); 
+}
+
+.welcome-banner {
+  position: absolute;
+  top: 120px;
+  left: 405px;
+  text-align: center;
+}
+
+.welcome-banner h1 {
+  font-size: 36px;
+  color: #ffffff;
+ 
+  font-weight: bold;
+}
+
+.container2 {
+  width: 100%; 
+  max-height: 700px; 
+  overflow-y: auto; 
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 14px; 
+  
+
+}
+
+.container2 th,
+.container2 td {
+  padding: 8px 15px;
+  text-align: left;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  
+}
+
+.container2 th {
+  background-color: none;
+  color: black; 
+  font-weight: normal;
+  position: sticky; 
+  top: 0;
+  z-index: 1;
+
+}
+
+.container2 tr:nth-child(odd) {
+  background-color: none; 
+}
+
+.container2 tr:nth-child(even) {
+  background-color: none; 
+}
+
+.tr {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  column-gap: 10px;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: left;
+  border-bottom: #454545 1px solid;
+
+  
+}
+
+.tr2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  column-gap: 20px;
+  font-size: 15px;
+  border-bottom: 2px solid #FD6E2B;
+  height: 40px;
+  font-weight: normal;
+  text-align: left;
+  padding-bottom: 10px;
+  
+  
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
